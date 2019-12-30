@@ -1,36 +1,114 @@
-body {
-	background: url('ring.jpg') no-repeat;
-	background-size: cover;
-	font-family: Arial;
-	color: white;
+*
+{
+    margin: 0;
+    padding: 0;
 }
-ul{
-	margin: 0px; 
-	padding:0px;
-	list-style: none;
-}
-ul li{
-	float: left;
-	width: 200px;
-	height: 40px;
-	background-color: black;
-	opacity: .8;
-	line-height: 40px;
-	text-align: center;
-	font-size: 20px;
+header
+{
+  background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(bg.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
 }
 
-ul li a{
-	text-decoration: none;
-	color: white;
-	display: block;
+.main-nav
+{
+  float: right;
+    list-style: none;
+    margin-top: 30px;
 }
-ul li a:hover{
-	background-color: orange;
+
+.main-nav li
+{
+    display: inline-block;
 }
-ul li ul li{
-	display: none;
+
+.main-nav li a
+{
+  color:white;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family:"Century Gothic",Calibri;
+    font-size: 15px;
 }
-ul li:hover ul li{
-	display: block;
+
+.main-nav Li.active a
+{
+    border: 1px solid white; 
 }
+
+.main-nav li a:hover
+{
+    border: 1px solid white;
+}
+
+.logo img
+{
+  width:150px;
+height: auto;
+    float: left;
+}
+
+body
+{
+    font-family:Century Gothic;
+}
+
+.row
+{
+    max-width: 1200px;
+    margin:auto;
+}
+.hero
+{
+   position: absolute;
+    width: 1200px;
+    margin-left: 0;
+    margin-top: 0;
+}
+
+h1
+{
+   color: white;
+    text-transform: uppercase;
+    font-size: 70px;
+    text-align: center;
+    margin-top: 275px;
+}
+
+img {
+  width:400px; 
+  height:400px;
+  border-radius:50%;
+}
+
+
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding:3px; 3px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+
+.topnav a:hover {
+  background-color:black;
+  color: orange;
+}
+
+
+.topnav a.active {
+  background-color:orange;
+  color: white;
+}
+
+
+
